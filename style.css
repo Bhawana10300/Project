@@ -24,7 +24,7 @@ nav{
 }
 
 .bg{
-    background-image: url(./Images/background.jpeg);
+    background-image: url(./Images/background..jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 500px;
@@ -48,7 +48,53 @@ nav{
     color: orange;
     font-style: italic;
 }
-
-
+.momos{
+    display: flex;
+    height: 500px;
+    width: 500px;
+   
     
+}
+ 
+.Table{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+ background-color: orange;
+ height: 50px;
+ width: 150px;
+ border:none;
+}
+.Table:hover 
+{
+    border:1px solid orange;
+    background-color: white;
+    
+
+}
+.text{
+    font-size: larger;
+}
+.text span{
+color:orange
+}
+
+h1{
+    width:30%
+}
+
+  .xyz{
+    display: flex;
+    width:80%;
+    margin:0px auto;
+
+  }
+  .xyz div{
+    flex:1;
+    
+    
+
+  }
+
   
