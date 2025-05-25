@@ -1,34 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
-nav{
-    display:flex;
-    justify-content: space-between;
-    padding:50px 30px;
-    background-color: beige;
 
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: white;
+    position: fixed;
+    top: 20px;
+    width: 70%;
+    right: 0px;
+    left: 0px;
+    margin: 0px auto;
+    border-radius: 10px;
+    z-index: 1;
 }
 
 
-.menu_item{
-    display:flex;
-    gap:30px;
+.menu_item {
+    display: flex;
+    gap: 30px;
     min-height: fit-content;
     min-width: fit-content;
     align-items: center;
 }
-.menu_item a{
-    color:black;
+
+.menu_item a {
+    color: black;
     text-decoration: none;
-    cursor:pointer ;
+    cursor: pointer;
 
 
 }
 
-.bg{
+.bg {
     background-image: url(./Images/background..jpg);
     background-repeat: no-repeat;
-    background-size:cover;
-    height: 500px;
-    content:"";
+    background-size: cover;
+    height: 700px;
+    content: "";
     contain: "";
     display: flex;
     justify-content: center;
@@ -36,65 +53,112 @@ nav{
     flex-direction: column;
     color: white;
 }
-.title{
+
+.title {
     font-size: 44px;
     font-weight: 800;
-    width:35%;
+    width: 35%;
     text-align: center;
     font-style: italic;
     font-family: "DM Serif Display", serif;
 }
-.title span{
+
+.title span {
     color: orange;
     font-style: italic;
 }
-.momos{
+
+.momos {
     display: flex;
     height: 500px;
     width: 500px;
-   
-    
 }
- 
-.Table{
-    display:flex;
+
+.Table {
+    display: flex;
     align-items: center;
     justify-content: center;
-    color:black;
- background-color: orange;
- height: 50px;
- width: 150px;
- border:none;
+    color: black;
+    background-color: orange;
+    height: 50px;
+    width: 150px;
+    border: none;
 }
-.Table:hover 
-{
-    border:1px solid orange;
+
+.Table:hover {
+    border: 1px solid orange;
     background-color: white;
-    
 
 }
-.text{
+
+.text {
     font-size: larger;
-}
-.text span{
-color:orange
+
 }
 
-h1{
-    width:30%
+.text span {
+    color: orange
 }
 
-  .xyz{
+h1 {
+    width: 50%;
+}
+
+.xyz {
     display: flex;
-    width:80%;
-    margin:0px auto;
+    width: 80%;
+    margin: 0px auto;
 
-  }
-  .xyz div{
-    flex:1;
+}
+
+.xyz div {
+    flex: 1;
+
+}
+
+.paragraph {
+    font-size: medium;
+}
+
+.abc{
+    color:black;
+    position: relative;
+
+}
+.image2 {
+    height: 700px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+   
+} 
+.image2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text2 {
+    display: flex;
+    font-size: larger;
+    font-weight: 800px;
+    width: 50%
+    
+}
+
+.text2 span {
+    color: orange;
+}
+h1{
+    position:relative;
+    font-weight: 500px;
+    width:45%;
+}
+.paragraph2{
+    display: flex;
+    font-size: small;
+    color: grey;
     
     
-
-  }
-
-  
+}
